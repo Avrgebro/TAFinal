@@ -90,4 +90,4 @@ data = zip(ids,sents)
 ans = pd.DataFrame(data)
 ans.columns = ["PhraseId", "Sentiment"]
 
-ans.to_csv('Sentiments3.csv', sep=',', index=False)
+ans.to_csv('Sentimentspy.csv', sep=',', index=False)
